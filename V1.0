@@ -28,7 +28,6 @@ USB-C.
 
 F-Mouse internals.
 
-
 Left magnetic rail
 
 Attach different modules:
@@ -134,6 +133,12 @@ Mini joystick
 Trackball
 3-key macro pad
 Slider #
+
+*1. Ideate basic functions
+2. Create basic paper sketch draft of design
+3. Create prototype model in CAD
+4. Figure out electronics (F-mouse board combined with breaker board)
+5. System integration of main pcb, your designed breaker board, and the body.*
 
 Purpose
 CAD navigation
