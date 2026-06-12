@@ -1,167 +1,86 @@
-# Core Features (Fix these)
-6-DOF Navigation
-Rotate
-Pan
-Zoom
-3 Programmable Buttons
-Fit View
-Undo
-Custom shortcut
-One Precision Mode
-Slow, fine movement for detailed CAD work.
-USB Plug-and-Play
-No battery management in v1.
-Ergonomic One-Hand Design
-Palm-rest style body.
-3D Printable Enclosure
-Easy for makers to print and assemble. #
+Software Supported
 
-Not a gaming mouse. Not a 3D mouse clone.
+Version 1:
 
-A platform.
-
-Base
-
-Normal ergonomic mouse.
-
-USB-C.
-
-F-Mouse internals.
-
-Left magnetic rail
-
-Attach different modules:
-
-🎛 Rotary encoder
-
-🎮 Mini joystick
-
-🖲 Trackball
-
-⌨ 3-key macro pad
-
-🎚 Slider
-
-
-Swap in 2 seconds.
-
-Software
-
-Profiles:
-
-CAD
-
+Onshape
+Fusion 360
 KiCad
 
-Blender
+1. Thumb Joystick
 
-Shotcut
+Used for:
 
-VS Code
-
-
-The OLED says:
-
-BLENDER
-Encoder → Zoom
-Key1 → G
-Key2 → R
-Key3 → S
-
-Switch to CAD:
-
-ONSHAPE
-Encoder → Rotate
-Key1 → Pan
-Key2 → Fit
-Key3 → Measure
-Now ask: Would people buy it?
-
-I think yes.
-
-Because people don't buy a new mouse every time they change workflows.
-
-Why I like it for Fallout:
-
-Great industrial design challenge.
-
-PCB challenge.
-
-Firmware challenge.
-
-Mechanical design.
-
-Product thinking.
-
-Beautiful renders.
-
-Expandable ecosystem.
-
-And the documentation almost writes itself.
-
-My only simplification:
-
-Don't actually design every module.
-
-Design:
-
-Base mouse.
-
-Magnetic interface.
-
-One rotary encoder module.
-
-One macro pad module.
-
-
-Show that more modules can exist later.
-
-That is enough to communicate the platform.
-
-# Tagline: A modular input platform.
-
-Base
-Ergonomic mouse shell
-USB-C
-F-Mouse internals
-Left magnetic expansion rail
-Expansion connector
-v1 Module
-Rotary encoder module (only)
-Future Modules (render/documentation only)
-Mini joystick
-Trackball
-3-key macro pad
-Slider #
-
-*1. Ideate basic functions
-2. Create basic paper sketch draft of design
-3. Create prototype model in CAD
-4. Figure out electronics (F-mouse board combined with breaker board)
-5. System integration of main pcb, your designed breaker board, and the body.*
-
-Purpose
 CAD navigation
-3D modelling
-Robotics simulation
-Engineering design
-Core Features
-6-DOF navigation
-Programmable buttons
-Ergonomic grip
-USB connectivity
-Open-source firmware (agar plan hai)
-Hardware
-Microcontroller
-IMU sensor
-Buttons/encoder
-3D-printed enclosure
-Software
-HID interface
-CAD compatibility
-Configurable shortcuts
-Vision
-"An affordable, maker-friendly alternative for engineering students and hobbyists."
+View manipulation
+Panning
 
+2. Scroll Wheel
+
+Used for:
+
+Zoom
+Scrolling
+Navigation
+
+3. Rotary Encoder
+
+Used for:
+
+Parameter adjustment
+Timeline scrubbing
+Precision control
+
+4. 6–8 Programmable Buttons
+
+Examples:
+
+Fusion:
+
+Sketch
+Extrude
+Fillet
+
+Onshape:
+
+Dimension
+Extrude
+Mate
+
+KiCad:
+
+Route
+Via
+Layer switch
+
+
+5. OLED Display
+
+Displays:
+
+Active profile
+Current mode
+Shortcut layer
+
+6. USB-C Connectivity
+
+Simple.
+
+Reliable.
+
+No batteries.
+
+No wireless.
+
+Electronics
+MCU
+
+RP2040
+
+Reason:
+
+cheap
+common
+well documented
+perfect for USB HID
 
 
